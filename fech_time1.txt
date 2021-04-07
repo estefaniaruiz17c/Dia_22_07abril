@@ -1,0 +1,40 @@
+Ejercicios de diferencia de tiempo del texto 'fech_time1.txt'
+
+- Las fechas del primer texto de la 1 a la 4 en orden: 
+
+05/10/2015 14:53:07
+26/08/1997 04:21:11
+13/02/2020 19:37:58
+31/01/2006 10:06:20
+
+- Operaciones entre fechas, las dejaremos actualizadas: 
+
+- Sumaremos y restaremos semanas, días, horas, minutos, segundos: 
+
+Fecha 1: 2015-10-05 14:53:07
+Sumar 2 semanas, 5 días, 3 horas, 20 minutos,  y 10 segundos a la fecha 1: 2015-10-24 18:13:17
+
+Fecha 2: 1997-08-26 04:21:11
+Sumar 3.8 semanas, 8 días, 4.2 horas, -45 minutos,  y -2000 segundos a la fecha 2: 1997-09-29 21:38:51
+
+Fecha 3: 2020-02-13 19:37:58
+Restar -2 semanas, 3 días, -5 horas, -13 minutos,  y -500 segundos a la fecha 3: 2020-02-25 00:59:18
+
+Fecha 4: 2006-01-31 10:06:20
+Restar 6 semanas, 15 días, -7 horas, -100 minutos,  y 300 segundos a la fecha 4: 2005-12-05 18:41:20
+
+- Compararemos fechas actualizadas: 
+
+La fecha 3 es mayor que la fecha 1?: False
+
+La fecha 2 es menor que la fecha 4?: True
+
+- Resta de 2 fechas no actualizadas y actualizadas: 
+
+Resta de las fechas 3 y 4 no actualizadas: 5126 days, 9:31:38
+
+Resta de las fechas 3 y 4 actualizadas: 5194 days, 6:17:58
+
+- timedelta.total_seconds() 
+
+El total de segundos que hay en 20 años es: 630720000.0
